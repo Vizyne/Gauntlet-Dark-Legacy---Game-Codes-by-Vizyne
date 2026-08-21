@@ -1,0 +1,25 @@
+==== Skip Intro Cutscenes ====
+by Vizyne
+
+
+
+== WHAT THIS DOES ==
+Skips the game's intro cutscenes, taking you straight to the PRESS START screen.
+
+
+== KNOWN ISSUES ==
+None
+
+
+== HOW TO USE ==
+Just add & enable the code.
+
+
+
+== CODE ==
+Gecko Code:
+
+$Skip Intro Cutscenes [Vizyne]
+C2068118 00000002
+38600000 60638004
+60000000 00000000

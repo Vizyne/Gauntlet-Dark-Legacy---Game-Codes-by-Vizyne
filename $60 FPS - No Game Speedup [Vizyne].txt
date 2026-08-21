@@ -1,0 +1,88 @@
+==== 60 FPS - NO GAME SPEEDUP ====
+by Vizyne
+
+
+
+== WHAT THIS DOES ==
+Lets the game run at 60 FPS without speeding up.
+
+
+== KNOWN ISSUES ==
+This code works, but it isn't finished.
+
+1. (Inconsequential) Some camera animations (ex. camera zoom after character(s) load in remain sped up.
+2. (Inconsequential) Anti-Death drain effect on Death remains sped up.
+3. (Inconsequential) Game has occasional spikes in speed that last for about a second.
+4. (Consequential) Basic attack animations are slightly faster than normal when the game is running at 60 FPS.
+5. (Consequential) As with the previous 60 FPS code, some ledges become difficult to cross.
+	If this happens:
+	1) Pause the emulation
+	2) Disable the AR & Gecko codes
+	3) Resume the emulation and cross the ledge
+	4) Re-enable the codes after crossing
+
+
+== HOW TO USE ==
+This is an AR and Gecko code combination. Both codes need to be used together for the game to work properly.
+
+1. Add and enable both codes in Dolphin.
+2. In Dolphin settings, set CPU Clock Override to 300% (200% also works, but some more demanding areas in the game will drop to 30 FPS).
+
+Alternatively, if you have the Speed powerup, you can enable it and shove (left trigger) to get over the ledge.
+
+
+
+== CODES ==
+AR Code:
+
+$60 FPS - No Game Speedup
+040B6F08 60000000
+0402F130 7C641850
+0402F218 D00D8A90
+04091238 54C607FE
+
+
+
+Gecko Code:
+
+$60FPS - No Game Speedup
+C20187D4 00000004
+818D8A7C 2C0C0001
+40820010 818D8A80
+718C0001 4C820020
+7C0802A6 00000000
+
+C202F134 00000009
+2C030002 40820028
+3D808034 618C4564
+816C0000 396B0001
+916C0000 2C0B0003
+4080001C 38600001
+48000014 3D808034
+618C4564 39600000
+916C0000 906D8A7C
+60000000 00000000
+
+C205E978 00000004
+818D8A7C 2C0C0001
+4082000C 5400D1BE
+48000008 5400D97E
+60000000 00000000
+
+C2067604 00000004
+818D8A7C 2C0C0001
+4082000C 5400D1BE
+48000008 5400D97E
+60000000 00000000
+
+C209122C 0000000A
+9421FFF0 91610008
+9181000C 7C000026
+90010004 80CD8A80
+8163000C 818D90F4
+7C0B6000 41820010
+818D90F0 7C0B6000
+40820008 38C00001
+80010004 7C0FF120
+8181000C 81610008
+38210010 60000000
