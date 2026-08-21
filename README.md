@@ -1,6 +1,8 @@
 **Gauntlet: Dark Legacy - Game Codes** by Vizyne
 -
-<img width="249" height="514" alt="1" src="https://github.com/user-attachments/assets/965adb28-aae5-4a5d-892e-07a5c4a9a6da"/> <img width="480" height="270" alt="Screenshot 2026-08-20 200105" src="https://github.com/user-attachments/assets/8674617a-9f86-4897-9754-8c56bcddf8bb" />
+<img width="249" height="514" alt="1" src="https://github.com/user-attachments/assets/e5beeac7-e4e8-45e6-a5da-55d5c8439f9c" /><img width="480" height="270" alt="Screenshot 2026-08-20 200105" src="https://github.com/user-attachments/assets/5c93b3df-986f-4457-a81b-61736afc5ffd" />
+
+
 
 
 This is a set of AR & Gecko codes I've made for Gauntlet: Dark Legacy (Rev. 1). New features from these codes:
